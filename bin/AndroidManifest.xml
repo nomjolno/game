@@ -15,15 +15,32 @@
         android:theme="@style/AppTheme" >
         <activity
             android:name="com.example.game1.MainActivity"
-            android:label="@string/app_name" >   
+            android:label="@string/app_name" >
         </activity>
         <activity
             android:name="com.example.game1.StartActivity"
             android:label="@string/title_activity_stat" >
-             <intent-filter>
+            <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.game1.PlayActivity"
+            android:label="@string/title_activity_play" >
+        </activity>
+        <activity
+            android:name="com.example.game1.EasyActivity"
+            android:label="@string/title_activity_easy" >
+        </activity>
+        <activity
+            android:name="com.example.game1.NomalActivity"
+            android:label="@string/title_activity_nomal" >
+        </activity>
+        <activity
+            android:name="com.example.game1.HardActivity"
+            android:label="@string/title_activity_hard" >
         </activity>
     </application>
 

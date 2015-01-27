@@ -16,7 +16,14 @@ public class MainActivity extends Activity {
 	public void easy(View view){
 		Intent intent =new Intent(MainActivity.this , EasyActivity.class);
 		startActivity(intent);
-		
+	}
+	public void nomal(View v){
+		Intent intent =new Intent(MainActivity.this , NomalActivity.class);
+		startActivity(intent);
+	}
+	public void hard(View v){
+		Intent intent =new Intent(MainActivity.this , HardActivity.class);
+		startActivity(intent);
 	}
 
 	@Override

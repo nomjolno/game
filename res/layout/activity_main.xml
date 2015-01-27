@@ -25,7 +25,8 @@
         android:layout_alignLeft="@+id/button1"
         android:layout_alignTop="@+id/button1"
         android:layout_marginTop="72dp"
-        android:text="Button" />
+        android:onClick="nomal"
+        android:text="Nomal" />
 
     <Button
         android:id="@+id/button3"
@@ -34,7 +35,7 @@
         android:layout_alignRight="@+id/button2"
         android:layout_below="@+id/button2"
         android:layout_marginTop="28dp"
-        android:onClick="easy"
-        android:text="Button" />
+        android:onClick="hard"
+        android:text="Hard" />
 
 </RelativeLayout>
