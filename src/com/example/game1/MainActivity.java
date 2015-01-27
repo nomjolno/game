@@ -1,6 +1,7 @@
 package com.example.game1;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.View;
@@ -13,6 +14,8 @@ public class MainActivity extends Activity {
 		setContentView(R.layout.activity_main);	
 	}
 	public void easy(View view){
+		Intent intent =new Intent(MainActivity.this , EasyActivity.class);
+		startActivity(intent);
 		
 	}
 
