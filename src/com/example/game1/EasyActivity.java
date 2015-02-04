@@ -19,25 +19,7 @@ public class EasyActivity extends Activity {
 	public void starthold(View view){
 		 
        }
-   
-	  public String formatTime(long value){
-	        String output = "00:00.0";
-	        long milli = value;
-	        long second = milli / 10;
-	        long minutes = second / 60;
-	        milli = milli % 10;
-	        second = second % 60;
-	        minutes = minutes % 60;
-	        String milliD = String.valueOf(milli);
-	        String secondsD = String.valueOf(second);
-	        String minutesD = String.valueOf(minutes);
-	        if(milli < 10) milliD = String.valueOf(milli);
-	        if(second < 10) secondsD = "0" + second;
-	        if(minutes < 10) minutesD = "0" + minutes;
-	        output = minutesD + ":" + secondsD + "." + milliD;
-	        return output;
-	    }
-
+  
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
 		// Inflate the menu; this adds items to the action bar if it is present.
