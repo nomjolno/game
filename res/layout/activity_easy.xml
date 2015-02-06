@@ -36,6 +36,6 @@
         android:layout_alignParentRight="true"
         android:layout_alignTop="@+id/linearLayout1"
         android:text="00.00"
-        android:textSize="26sp" />
+        android:textSize="30sp" />
 
 </RelativeLayout>
