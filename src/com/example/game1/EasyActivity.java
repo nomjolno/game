@@ -27,6 +27,7 @@ public class EasyActivity extends Activity {
 		dispCnt =(TextView) findViewById(R.id.timer);	
 	}
 	public void starthold(View view){
+		//初めのホールドを触ってタイマースタート
 		if(timer == null){
 			  timer = new Timer(true);
 			 }
@@ -50,9 +51,7 @@ public class EasyActivity extends Activity {
 		     String disp_count = String.format("%1$02d", count);
 		    // String disp_m = String.format("%1$02d", m);
 		     String disp_i = String.format("%1$02d", i);
-
-		     dispCnt.setText(/*disp_h+":"+
-		     disp_m+":"+*/disp_i+":"+disp_count);
+		     dispCnt.setText(/*disp_m+":"+*/disp_i+":"+disp_count);
 		    }
 		   });
 		  }
