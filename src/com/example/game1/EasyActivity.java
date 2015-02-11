@@ -15,7 +15,6 @@ public class EasyActivity extends Activity {
 	private int number;
 	int count = 0;
 	int i = 0;
-	//int m = 0;
 	Timer mTimer = null;
 	Handler mHandler = new Handler();
 	private Timer timer;
@@ -38,20 +37,14 @@ public class EasyActivity extends Activity {
 		   handler.post(new Runnable() {
 		    public void run() {
 		     count++;
-		     //countは10ミリ秒ごとにカウントアップするので、100になったら1秒として計算していく
+		     //10ミリでカウントし100になったら1秒
 		     if(count == 100){
 		      i ++;
 		      count = 0;
 		     }
-		     //60秒になったら1分とする
-		     /*if(i == 60){
-		      m ++;
-		      i = 0;
-		     }*/
 		     String disp_count = String.format("%1$02d", count);
-		    // String disp_m = String.format("%1$02d", m);
 		     String disp_i = String.format("%1$02d", i);
-		     dispCnt.setText(/*disp_m+":"+*/disp_i+":"+disp_count);
+		     dispCnt.setText(disp_i+":"+disp_count);
 		    }
 		   });
 		  }
@@ -66,6 +59,3 @@ public class EasyActivity extends Activity {
 	
 }
 		   
-		  
-
-
