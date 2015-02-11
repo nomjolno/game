@@ -28,33 +28,14 @@
         android:textSize="30sp" />
 
     <ImageButton
-        android:id="@+id/imageButton3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_above="@+id/imageButton2"
-        android:layout_alignParentLeft="true"
-        android:layout_marginLeft="22dp"
-        android:background="#00FFFFFF"
-        android:src="@drawable/hold" />
-
-    <ImageButton
-        android:id="@+id/imageButton4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_above="@+id/imageButton3"
-        android:layout_alignLeft="@+id/linearLayout1"
-        android:layout_marginBottom="19dp"
-        android:background="#00FFFFFF"
-        android:src="@drawable/hold" />
-
-    <ImageButton
         android:id="@+id/imageButton5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/timer"
         android:layout_marginTop="14dp"
         android:layout_toLeftOf="@+id/timer"
-        android:background="#00FFFFFF"
+        android:background="#C0C0C0"
+        android:onClick="b5"
         android:src="@drawable/hold" />
 
     <ImageButton
@@ -77,6 +58,26 @@
         android:layout_toRightOf="@+id/imageButton3"
         android:background="#00FFFFFF"
         android:onClick="starthold"
+        android:src="@drawable/hold" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="40dp"
+        android:background="#00FFFFFF"
+        android:src="@drawable/hold" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/imageButton3"
+        android:layout_marginBottom="22dp"
+        android:layout_toLeftOf="@+id/imageButton5"
+        android:background="#00FFFFFF"
         android:src="@drawable/hold" />
 
 </RelativeLayout>

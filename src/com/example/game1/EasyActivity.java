@@ -39,8 +39,7 @@ public class EasyActivity extends Activity {
 		     count++;
 		     //10ミリでカウントし100になったら1秒
 		     if(count == 100){
-		      i ++;
-		      count = 0;
+		    	 i ++;count = 0;
 		     }
 		     String disp_count = String.format("%1$02d", count);
 		     String disp_i = String.format("%1$02d", i);
@@ -50,6 +49,12 @@ public class EasyActivity extends Activity {
 		  }
 		 }, 10, 10);
 	} 
+	public void b4 (View v){
+		switch(v.getId( )){
+		
+		}
+		
+	}
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
 		// Inflate the menu; this adds items to the action bar if it is present.
