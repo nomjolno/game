@@ -8,18 +8,6 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context=".EasyActivity" >
 
-    <ImageButton
-        android:id="@+id/imageButton1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentLeft="true"
-        android:layout_marginBottom="98dp"
-        android:layout_marginLeft="60dp"
-        android:background="#00FFFFFF"
-        android:onClick="starthold"
-        android:src="@drawable/hold" />
-
     <LinearLayout
         android:id="@+id/linearLayout1"
         android:layout_width="wrap_content"
@@ -38,5 +26,57 @@
         android:text="00.00"
         android:textColor="#00BFFF"
         android:textSize="30sp" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/imageButton2"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="22dp"
+        android:background="#00FFFFFF"
+        android:src="@drawable/hold" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/imageButton3"
+        android:layout_alignLeft="@+id/linearLayout1"
+        android:layout_marginBottom="19dp"
+        android:background="#00FFFFFF"
+        android:src="@drawable/hold" />
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/timer"
+        android:layout_marginTop="14dp"
+        android:layout_toLeftOf="@+id/timer"
+        android:background="#00FFFFFF"
+        android:src="@drawable/hold" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/imageButton1"
+        android:layout_alignLeft="@+id/imageButton5"
+        android:layout_marginBottom="21dp"
+        android:layout_marginLeft="17dp"
+        android:background="#00FFFFFF"
+        android:src="@drawable/hold" />
+
+    <ImageButton
+        android:id="@+id/imageButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="84dp"
+        android:layout_toRightOf="@+id/imageButton3"
+        android:background="#00FFFFFF"
+        android:onClick="starthold"
+        android:src="@drawable/hold" />
 
 </RelativeLayout>
