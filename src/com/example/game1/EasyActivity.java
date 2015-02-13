@@ -21,7 +21,6 @@ public class EasyActivity extends Activity {
 	Handler mHandler = new Handler();
 	private Timer timer;
 	private ImageView  b1,b2,b3,b4,b5,b6;
-
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -65,6 +64,7 @@ public class EasyActivity extends Activity {
 	public void on2 (View v){
 		b6.setVisibility(View.VISIBLE);
 		  b6.setImageResource(R.drawable.hold);
+		  b1.setVisibility(View.INVISIBLE);
 	}
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
