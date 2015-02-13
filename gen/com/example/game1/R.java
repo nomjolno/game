@@ -227,15 +227,22 @@ containing a value of this type.
         public static final int hold=0x7f020000;
         public static final int hold1=0x7f020001;
         public static final int ic_launcher=0x7f020002;
+        public static final int siro=0x7f020003;
     }
     public static final class id {
-        public static final int action_settings=0x7f04001c;
+        public static final int action_settings=0x7f04001d;
         public static final int alignBounds=0x7f040002;
         public static final int alignMargins=0x7f040003;
+        public static final int b1=0x7f040013;
+        public static final int b2=0x7f040016;
+        public static final int b3=0x7f040017;
+        public static final int b4=0x7f040018;
+        public static final int b5=0x7f040015;
+        public static final int b6=0x7f040019;
         public static final int bottom=0x7f040005;
-        public static final int button1=0x7f040019;
-        public static final int button2=0x7f04001a;
-        public static final int button3=0x7f04001b;
+        public static final int button1=0x7f04001a;
+        public static final int button2=0x7f04001b;
+        public static final int button3=0x7f04001c;
         public static final int center=0x7f04000c;
         public static final int center_horizontal=0x7f04000a;
         public static final int center_vertical=0x7f040008;
@@ -246,11 +253,6 @@ containing a value of this type.
         public static final int fill_horizontal=0x7f04000b;
         public static final int fill_vertical=0x7f040009;
         public static final int horizontal=0x7f040000;
-        public static final int imageButton1=0x7f040013;
-        public static final int imageButton2=0x7f040016;
-        public static final int imageButton3=0x7f040015;
-        public static final int imageButton4=0x7f040017;
-        public static final int imageButton5=0x7f040018;
         public static final int left=0x7f040006;
         public static final int linearLayout1=0x7f040012;
         public static final int right=0x7f040007;
