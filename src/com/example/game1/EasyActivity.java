@@ -8,6 +8,8 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.view.Menu;
 import android.view.View;
+import android.widget.ImageButton;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 public class EasyActivity extends Activity {
@@ -18,12 +20,20 @@ public class EasyActivity extends Activity {
 	Timer mTimer = null;
 	Handler mHandler = new Handler();
 	private Timer timer;
+	private ImageView  b1,b2,b3,b4,b5,b6;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_easy);	
 		dispCnt =(TextView) findViewById(R.id.timer);	
+		b1 = (ImageButton)findViewById(R.id.b1);
+		b2 = (ImageButton)findViewById(R.id.b2);
+		b3 = (ImageButton)findViewById(R.id.b3);
+		b4 = (ImageButton)findViewById(R.id.b4);
+		b5 = (ImageButton)findViewById(R.id.b5);
+		b6 = (ImageButton)findViewById(R.id.b6);
+		b6.setVisibility(View.INVISIBLE);
 	}
 	public void starthold(View view){
 		//初めのホールドを触ってタイマースタート
@@ -49,11 +59,12 @@ public class EasyActivity extends Activity {
 		  }
 		 }, 10, 10);
 	} 
-	public void b4 (View v){
-		switch(v.getId( )){
+	public void onClick(View v){
 		
-		}
-		
+	}
+	public void on2 (View v){
+		b6.setVisibility(View.VISIBLE);
+		  b6.setImageResource(R.drawable.hold);
 	}
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
