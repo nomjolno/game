@@ -42,6 +42,10 @@
             android:name="com.example.game1.HardActivity"
             android:label="@string/title_activity_hard" >
         </activity>
+        <activity
+            android:name="com.example.game1.GoalActivity"
+            android:label="@string/title_activity_goal" >
+        </activity>
     </application>
 
 </manifest>

@@ -9,5 +9,6 @@
     <string name="title_activity_easy">EasyActivity</string>
     <string name="title_activity_nomal">NomalActivity</string>
     <string name="title_activity_hard">HardActivity</string>
+    <string name="title_activity_goal">GoalActivity</string>
 
 </resources>
