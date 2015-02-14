@@ -4,6 +4,7 @@ import java.util.Timer;
 import java.util.TimerTask;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.view.Menu;
@@ -59,12 +60,17 @@ public class EasyActivity extends Activity {
 		 }, 10, 10);
 	} 
 	public void onClick(View v){
-		
+		//特に指令なし
+		//できればページがスライド？動くようにする
 	}
 	public void on2 (View v){
 		b6.setVisibility(View.VISIBLE);
 		  b6.setImageResource(R.drawable.hold);
 		  b1.setVisibility(View.INVISIBLE);
+	}
+	public void goal (View v){
+		Intent intent =new Intent(EasyActivity.this , GoalActivity.class);
+		startActivity(intent);
 	}
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {

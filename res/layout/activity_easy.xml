@@ -90,6 +90,7 @@
         android:layout_alignRight="@+id/b3"
         android:layout_below="@+id/linearLayout1"
         android:background="#00FFFFFF"
+        android:onClick="goal"
         android:src="@drawable/ic_launcher" />
 
 </RelativeLayout>
