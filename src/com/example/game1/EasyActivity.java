@@ -4,6 +4,7 @@ import java.util.Timer;
 import java.util.TimerTask;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.view.Menu;
@@ -66,6 +67,10 @@ public class EasyActivity extends Activity {
 		b6.setVisibility(View.VISIBLE);
 		  b6.setImageResource(R.drawable.hold);
 		  b1.setVisibility(View.INVISIBLE);
+	}
+	public void goal (View v){
+		Intent intent =new Intent(EasyActivity.this , GoalActivity.class);
+		startActivity(intent);
 	}
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
