@@ -13,14 +13,16 @@ public class GoalActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_goal);
 	}
+	//プレイ選択画面へ遷移
 	public void replay(View v){
 		Intent intent =new Intent(GoalActivity.this , MainActivity.class);
 		startActivity(intent);
-	}public void title(View v){
+	}
+	//タイトル画面へ遷移
+	public void title(View v){
 		Intent intent =new Intent(GoalActivity.this , StartActivity.class);
 		startActivity(intent);
 	}
-
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
 		// Inflate the menu; this adds items to the action bar if it is present.
