@@ -46,11 +46,12 @@
         android:text="あなたのタイムは" />
 
     <TextView
-        android:id="@+id/timertext"
+        android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/textView2"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="14dp" />
+        android:layout_marginTop="28dp"
+        android:layout_toRightOf="@+id/textView2"
+        android:text="TextView" />
 
 </RelativeLayout>

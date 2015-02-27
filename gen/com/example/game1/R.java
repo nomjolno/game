@@ -259,8 +259,8 @@ containing a value of this type.
         public static final int start=0x7f040010;
         public static final int textView1=0x7f04001a;
         public static final int textView2=0x7f04001d;
+        public static final int textView3=0x7f04001e;
         public static final int timer=0x7f040014;
-        public static final int timertext=0x7f04001e;
         public static final int top=0x7f040004;
         public static final int vertical=0x7f040001;
     }

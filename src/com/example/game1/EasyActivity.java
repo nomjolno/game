@@ -7,6 +7,7 @@ import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
+import android.util.Log;
 import android.view.Menu;
 import android.view.View;
 import android.widget.ImageButton;
@@ -16,7 +17,7 @@ import android.widget.TextView;
 public class EasyActivity extends Activity {
 	private TextView dispCnt;
 	private int number;
-	int timecount = 0;
+	int time = 0;
 	int i = 0;
 	Timer mTimer = null;
 	Handler mHandler = new Handler();
@@ -48,13 +49,13 @@ public class EasyActivity extends Activity {
 			public void run() {
 				handler.post(new Runnable() {
 					public void run() {
-						timecount++;
+						time++;
 						// 10ミリでカウントし100になったら1秒
-						if (timecount == 100) {
+						if (time == 100) {
 							i++;
-							timecount = 0;
+							time = 0;
 						}
-						String disp_count = String.format("%1$02d", timecount);
+						String disp_count = String.format("%1$02d", time);
 						String disp_i = String.format("%1$02d", i);
 						dispCnt.setText(disp_i + ":" + disp_count);
 					}
@@ -79,6 +80,9 @@ public class EasyActivity extends Activity {
 			timer.cancel();
 		}
 		Intent intent = new Intent(EasyActivity.this, GoalActivity.class);
+		intent.putExtra("TouchCount", time );
+		intent.putExtra("mTouchCount", i );
+		 Log.d("TouchCount", ""+ i +":"+ time);
 		startActivity(intent);
 	}
 
