@@ -50,8 +50,18 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/textView2"
-        android:layout_marginTop="28dp"
-        android:layout_toRightOf="@+id/textView2"
-        android:text="TextView" />
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:text="00：00"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView3"
+        android:layout_alignRight="@+id/button1"
+        android:text="です。"
+        android:textSize="20sp" />
 
 </RelativeLayout>

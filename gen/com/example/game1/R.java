@@ -230,7 +230,7 @@ containing a value of this type.
         public static final int siro=0x7f020003;
     }
     public static final class id {
-        public static final int action_settings=0x7f040020;
+        public static final int action_settings=0x7f040021;
         public static final int alignBounds=0x7f040002;
         public static final int alignMargins=0x7f040003;
         public static final int b1=0x7f040013;
@@ -242,7 +242,7 @@ containing a value of this type.
         public static final int bottom=0x7f040005;
         public static final int button1=0x7f04001b;
         public static final int button2=0x7f04001c;
-        public static final int button3=0x7f04001f;
+        public static final int button3=0x7f040020;
         public static final int center=0x7f04000c;
         public static final int center_horizontal=0x7f04000a;
         public static final int center_vertical=0x7f040008;
@@ -260,6 +260,7 @@ containing a value of this type.
         public static final int textView1=0x7f04001a;
         public static final int textView2=0x7f04001d;
         public static final int textView3=0x7f04001e;
+        public static final int textView4=0x7f04001f;
         public static final int timer=0x7f040014;
         public static final int top=0x7f040004;
         public static final int vertical=0x7f040001;

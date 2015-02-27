@@ -22,7 +22,7 @@ public class GoalActivity extends Activity {
 				time = intent.getIntExtra("TouchCount", 0);
 				time2 = intent.getIntExtra("mTouchCount", 0);
 				 Log.d("TouchCount", "" + time);
-				timer.setText("タッチ回数は" + time2 + ":"+ time + "でした。");
+				timer.setText( time2 + ":"+ time );
 				 Log.d("setText", "OK");
 	}
 	//プレイ選択画面へ遷移
