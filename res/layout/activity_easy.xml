@@ -35,7 +35,6 @@
         android:layout_marginTop="14dp"
         android:layout_toLeftOf="@+id/timer"
         android:background="#C0C0C0"
-        android:onClick="onCkick"
         android:src="@drawable/hold" />
 
     <ImageButton
@@ -69,7 +68,6 @@
         android:layout_centerVertical="true"
         android:layout_marginLeft="40dp"
         android:background="#00FFFFFF"
-        android:onClick="onCkick"
         android:src="@drawable/hold" />
 
     <ImageButton
@@ -80,7 +78,6 @@
         android:layout_marginBottom="22dp"
         android:layout_toLeftOf="@+id/b5"
         android:background="#00FFFFFF"
-        android:onClick="onCkick"
         android:src="@drawable/hold" />
 
     <ImageButton

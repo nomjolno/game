@@ -16,6 +16,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="80dp"
         android:text="ゴール"
+        android:textColor="#DC143C"
         android:textSize="40sp" />
 
     <Button
@@ -61,7 +62,7 @@
         android:layout_height="wrap_content"
         android:layout_alignBottom="@+id/textView3"
         android:layout_alignRight="@+id/button1"
-        android:text="です。"
+        android:text="秒です。"
         android:textSize="20sp" />
 
 </RelativeLayout>
