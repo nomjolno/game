@@ -28,7 +28,7 @@
         android:textSize="30sp" />
 
     <ImageButton
-        android:id="@+id/b5"
+        android:id="@+id/button5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/timer"
@@ -38,19 +38,7 @@
         android:src="@drawable/hold" />
 
     <ImageButton
-        android:id="@+id/b2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_above="@+id/b1"
-        android:layout_alignLeft="@+id/b5"
-        android:layout_marginBottom="21dp"
-        android:layout_marginLeft="17dp"
-        android:background="#00FFFFFF"
-        android:onClick="on2"
-        android:src="@drawable/hold" />
-
-    <ImageButton
-        android:id="@+id/b1"
+        android:id="@+id/buttuo1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
@@ -61,7 +49,7 @@
         android:src="@drawable/hold" />
 
     <ImageButton
-        android:id="@+id/b3"
+        android:id="@+id/button3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
@@ -71,20 +59,30 @@
         android:src="@drawable/hold" />
 
     <ImageButton
-        android:id="@+id/b4"
+        android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/b3"
-        android:layout_marginBottom="22dp"
-        android:layout_toLeftOf="@+id/b5"
+        android:layout_above="@+id/buttuo1"
+        android:layout_alignLeft="@+id/button5"
+        android:background="#00FFFFFF"
+        android:onClick="on2"
+        android:src="@drawable/hold" />
+
+    <ImageButton
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button3"
+        android:layout_marginBottom="18dp"
+        android:layout_toLeftOf="@+id/button5"
         android:background="#00FFFFFF"
         android:src="@drawable/hold" />
 
     <ImageButton
-        android:id="@+id/b6"
+        android:id="@+id/button6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignRight="@+id/b3"
+        android:layout_alignRight="@+id/button3"
         android:layout_below="@+id/linearLayout1"
         android:background="#00FFFFFF"
         android:onClick="goal"
