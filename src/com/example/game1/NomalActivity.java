@@ -1,15 +1,20 @@
 package com.example.game1;
 
-import android.os.Bundle;
 import android.app.Activity;
+import android.os.Bundle;
 import android.view.Menu;
+import android.widget.ImageButton;
+import android.widget.ImageView;
 
 public class NomalActivity extends Activity {
-
+	private ImageView bu1;
+	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_nomal);
+		bu1 = (ImageButton) findViewById(R.id.bu1);
+		bu1.setImageResource(R.drawable.hold2);
 	}
 
 	@Override

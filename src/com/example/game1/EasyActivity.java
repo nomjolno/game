@@ -22,19 +22,19 @@ public class EasyActivity extends Activity {
 	Timer mTimer = null;
 	Handler mHandler = new Handler();
 	private Timer timer;
-	private ImageView b1, b2, b3, b4, b5, b6;
+	private ImageView b1, b2, b3,b4, b5, b6;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_easy);
 		dispCnt = (TextView) findViewById(R.id.timer);
-		b1 = (ImageButton) findViewById(R.id.b1);
-		b2 = (ImageButton) findViewById(R.id.b2);
-		b3 = (ImageButton) findViewById(R.id.b3);
-		b4 = (ImageButton) findViewById(R.id.b4);
-		b5 = (ImageButton) findViewById(R.id.b5);
-		b6 = (ImageButton) findViewById(R.id.b6);
+		b1 = (ImageButton) findViewById(R.id.button1);
+		b2 = (ImageButton) findViewById(R.id.button2);
+		b3 = (ImageButton) findViewById(R.id.button3);
+		b4 = (ImageButton) findViewById(R.id.button4);
+		b5 = (ImageButton) findViewById(R.id.button5);
+		b6 = (ImageButton) findViewById(R.id.button6);
 		b6.setVisibility(View.INVISIBLE);
 	}
 
