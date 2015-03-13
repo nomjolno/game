@@ -15,6 +15,7 @@ public class HardActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_hard);
 	
+	
 		/*	 for(i=0; i<12; i++) {
 		
 			imageButton[i] = (ImageButton)findViewById(getResources().getIdentifier

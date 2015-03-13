@@ -37,9 +37,7 @@ public class EasyActivity extends Activity {
 		b6 = (ImageButton) findViewById(R.id.button6);
 		b6.setVisibility(View.INVISIBLE);
 	}
-
-	public void starthold(View view) {
-		// 初めのホールドを触ってタイマースタート
+	public void timestart(){
 		if (timer == null) {
 			timer = new Timer(true);
 		}
@@ -64,13 +62,18 @@ public class EasyActivity extends Activity {
 		}, 10, 10);
 	}
 
+	public void starthold(View view) {
+		timestart();
+	}
+		
+
 	public void click2(View v) {
 		Log.d("click2", "OK");
 		b6.setVisibility(View.VISIBLE);
 		Log.d("click2", "OKV");
 		b6.setImageResource(R.drawable.hold);
 		Log.d("click2", "OKL");
-		//b1.setVisibility(View.INVISIBLE);
+		b1.setVisibility(View.INVISIBLE);
 		Log.d("click2", "OK2");
 	}
 
