@@ -65,7 +65,7 @@
         android:layout_above="@+id/buttuo1"
         android:layout_alignLeft="@+id/button5"
         android:background="#00FFFFFF"
-        android:onClick="on2"
+        android:onClick="click2"
         android:src="@drawable/hold" />
 
     <ImageButton

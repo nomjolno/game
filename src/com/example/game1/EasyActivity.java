@@ -22,7 +22,7 @@ public class EasyActivity extends Activity {
 	Timer mTimer = null;
 	Handler mHandler = new Handler();
 	private Timer timer;
-	private ImageView b1, b2, b3,b4, b5, b6;
+	private ImageView b1, b2, b3, b4, b5, b6;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -63,13 +63,19 @@ public class EasyActivity extends Activity {
 			}
 		}, 10, 10);
 	}
-	public void on2(View v) {
+
+	public void click2(View v) {
+		Log.d("click2", "OK");
 		b6.setVisibility(View.VISIBLE);
+		Log.d("click2", "OKV");
 		b6.setImageResource(R.drawable.hold);
-		b1.setVisibility(View.INVISIBLE);
+		Log.d("click2", "OKL");
+		//b1.setVisibility(View.INVISIBLE);
+		Log.d("click2", "OK2");
 	}
-public void onClick(View v) {
-	b6.setVisibility(View.VISIBLE);
+
+	public void onClick(View v) {
+		b6.setVisibility(View.VISIBLE);
 	}
 
 	public void goal(View v) {
@@ -77,9 +83,9 @@ public void onClick(View v) {
 			timer.cancel();
 		}
 		Intent intent = new Intent(EasyActivity.this, GoalActivity.class);
-		intent.putExtra("TouchCount", time );
-		intent.putExtra("mTouchCount", i );
-		 Log.d("TouchCount", ""+ i +":"+ time);
+		intent.putExtra("TouchCount", time);
+		intent.putExtra("mTouchCount", i);
+		Log.d("TouchCount", "" + i + ":" + time);
 		startActivity(intent);
 	}
 

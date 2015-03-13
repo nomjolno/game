@@ -80,6 +80,7 @@
         android:layout_marginRight="21dp"
         android:layout_toLeftOf="@+id/bb4"
         android:background="#00FFFFFF"
+        android:onClick="on click"
         android:src="@drawable/ic_launcher" />
 
     <ImageButton
