@@ -9,18 +9,27 @@ import android.widget.ImageButton;
 
 public class HardActivity extends Activity {
 	int i;
-	 ImageButton[] imageButtons = new ImageButton[12]  ;
+	private ImageButton[] imageButtons = new ImageButton[12]  ;
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_hard);
-		for(i=0; i<12; i++) {
-			ImageButton[] imageButton = null;
+	
+	
+		/*	 for(i=0; i<12; i++) {
+		
 			imageButton[i] = (ImageButton)findViewById(getResources().getIdentifier
 					("image" + i, "id", getPackageName()));
 			imageButton[i].setImageResource(R.drawable.hold);
+			  //bb3=(ImageButton)findViewById(R.id.bb3);
 		}
-	
+	}
+	public void onclick(View v){
+		 switch(v.getId()){
+		 case R.id.bb3:
+			  break;
+		 }
+		 */
 	}
 
 	@Override
